@@ -90,6 +90,8 @@ int registro ()//Função responsável por cadastrar os usuários no sistema
 	 }
 	  
 	  system ("pause");
+	  
+	  fclose (file);
  }
 
 int deletar ()
